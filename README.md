@@ -14,3 +14,17 @@ The AURA engine operates in a simple, powerful loop:
 * AI-Powered Detection: Uses a `RandomForestClassifier` trained on the KDD '99 dataset to achieve high-accuracy threat classification.
 * Policy-Based Automation Demonstrates a real-world orchestration concept by linking AI-detected threats to specific, automated security actions.
 * Built in Python: Uses standard data science (Pandas, Scikit-learn) and Python libraries.
+
+# How to Run
+
+1.  **Clone the repository:**
+    `git clone https://github.com/shansree-z/AURA-Threat-Engine.git`
+2.  **Install dependencies:**
+    This project requires Python and the following libraries:
+    * `pandas`
+    * `scikit-learn`
+    You can install them using pip:
+    `pip install pandas scikit-learn`
+3.  **Run the notebook:**
+    Open the `AURA01.ipynb` file in a Jupyter Notebook or Google Colab environment.
+    
